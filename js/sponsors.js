@@ -4,12 +4,6 @@
 function generateSponsorBox(data){
 	alert("HI!");
 	var money = 1000000;
-	foreach(sponsor in sponsors){
-		sponsor.give(money);
-		techhounds.give(thank_you);
-		sponsor.receive(thank_you);
-	}
-	techhounds.makeIt(rain);
 }
 
 
@@ -17,7 +11,7 @@ function requestData() {
 	$.ajax({
 		url: "sponsors.json",
 		cache: false,
-		async : true,
+		async: true,
 		error: function(XMLHttpRequest, textStatus, errorThrown) {
 			console.log(errorThrown);
 		},

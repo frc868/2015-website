@@ -1,8 +1,14 @@
 {
 	"boeing":[
-		"name":"BOEING",
+		{"name":"BOEING",
 		"logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/boeing-logo.jpg",
-		"description":"Boeing is the world`s leading aerospace company and the largest manufacturer of commercial jetliners and military aircraft combined. Additionally, Boeing designs and manufactures rotorcraft, electronic and defense systems, missiles, satellites, launch vehicles and advanced information and communication systems. As a major service provider to NASA, Boeing is the prime contractor for the International Space Station. The company also provides numerous military and commercial airline support services. Boeing provides products and support services to customers in 150 countries and is one of the largest U.S. exporters in terms of sales.",
-		"website":"http://www.boeing.com"
+		"description":"Boeing is fantastic.",
+		"website":"http://www.boeing.com"}
+	],
+	"chs":[
+		{"name":"CARMEL HIGH SCHOOL",
+		"logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/carmel.jpg",
+		"description":"Carmel is terrible.",
+		"website":"http://www.ccs.k12.in.us"}
 	]
 }
