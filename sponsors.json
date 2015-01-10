@@ -1,14 +1,26 @@
 {
 	"boeing":[
-		{"name":"BOEING",
+		{"name":"Boeing",
 		"logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/boeing-logo.jpg",
 		"description":"Boeing is fantastic.",
 		"website":"http://www.boeing.com"}
 	],
 	"chs":[
 		{"name":"CARMEL HIGH SCHOOL",
-		"logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/carmel.jpg",
+		"logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/CarmelHS.jpg",
 		"description":"Carmel is terrible.",
 		"website":"http://www.ccs.k12.in.us"}
+	],
+	"lentz":[
+		{"name":"Lentz Independent Consulting",
+		 "logo":"none",
+		 "description":"Eric Lentz",
+		 "website":"none"}
+	],
+	"moriarity":[
+		{"name":"Daniel F. and Ellen Frances Moriarty Fund for Technology and Leadership",
+		 "logo":"none",
+		 "description":"none",
+		 "website":"none"}
 	]
 }
