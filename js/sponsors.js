@@ -6,6 +6,7 @@ function generateSponsorBox(data){
 	console.log(keys.length);
 	for (var i=0;i < keys.length;i++){
 		console.log(keys[i]);
+
 		var company = data[keys[i]];
 		var div = document.createElement("div");
 		var body = document.getElementById(company[0].level + "Sponsors");
@@ -14,6 +15,7 @@ function generateSponsorBox(data){
 
 		div.id = keys[i];
 		div.className = "sponsorDiv";
+		
 		if(company[0].description != "none"){
 			div.setAttribute("onclick","test(this)")
 			div.setAttribute("data-toggle","modal")
@@ -43,6 +45,7 @@ function generateSponsorBox(data){
 
 function test(sponsorDiv){
 	console.log(sponsorDiv);
+
 	var id = sponsorDiv.id;
 	var company = data[id];
 	console.log(company[0].name);
@@ -54,6 +57,7 @@ function test(sponsorDiv){
 	modalTitle.innerHTML = company[0].name;
 	modalBody.innerHTML = company[0].description;
 	modalFooter.innerHTML = "<button class='btn' data-dismiss='modal' type='button'>Close</button>";
+
 	if(company[0].website != "none"){
 		var websiteButton = document.createElement("a");
 		websiteButton.className = "btn website";
@@ -80,3 +84,5 @@ function requestData() {
 		}
 	});
 }
+
+window.onload = requestData();
