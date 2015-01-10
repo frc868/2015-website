@@ -3,7 +3,9 @@
 
 function generateSponsorBox(data){
 	var keys = Object.keys(data);
+	keys.sort();
 	console.log(keys.length);
+
 	for (var i=0;i < keys.length;i++){
 		console.log(keys[i]);
 
@@ -38,7 +40,6 @@ function generateSponsorBox(data){
 			
 			div.appendChild(h3);
 		}
-
 		body.appendChild(div);
 	}
 }

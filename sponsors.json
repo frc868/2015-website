@@ -6,6 +6,13 @@
 		"website":"http://www.boeing.com",
 		"level":"platinum"}
 	],
+	"rolls-royce":[
+		{"name":"Rolls-Royce",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/rollsroyce.png",
+		 "description":"Rolls-Royce, a world-leading provider of power systems and services for use on land, at sea and in the air, operates in four global markets - civil aerospace, defense aerospace, marine and energy. We continue to invest in core technologies, products, people and capabilities with the objective of broadening and strengthening the product portfolio, improving efficiency and enhancing the environmental performance of its products.",
+		 "website":"http://www.rolls-royce.com/",
+		 "level":"signature"}
+	],
 	"chs":[
 		{"name":"CARMEL HIGH SCHOOL",
 		"logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/CarmelHS.jpg",
@@ -26,5 +33,12 @@
 		 "description":"none",
 		 "website":"none",
 		 "level":"signature"}
+	],
+	"bastian":[
+		{"name":"Bastian Solutions",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/Bastian_Solutions.jpg",
+		 "description":"Bastian Solutions is an independent material handling system integrator dedicated to helping customers improve their manufacturing, distribution, and logistics operations. The company provides system engineering and design, consulting and simulation, project management, and installation services, while sourcing the best material handling equipment and automation technologies. In addition, Bastian Solutions has developed its own suite of supply chain software and manufactures custom material handling technologies, robotic end of arm tools, and system control panels.",
+		 "website":"http://www.bastiansolutions.com/",
+		 "level":"platinum"}
 	]
 }
