@@ -7,10 +7,10 @@ function generateSponsorBox(data){
 	for (var i=0;i < keys.length;i++){
 		console.log(keys[i]);
 		var company = data[keys[i]];
-		console.log(company[0].name);
-
 		var div = document.createElement("div");
-		var body = document.getElementById("body");
+		var body = document.getElementById(company[0].level + "Sponsors");
+
+		console.log(company[0].name);
 
 		div.id = keys[i];
 		div.className = "sponsorDiv";
@@ -19,6 +19,7 @@ function generateSponsorBox(data){
 			div.setAttribute("data-toggle","modal")
 			div.setAttribute("data-target","#sponsorModal")
 		}
+		
 		if(company[0].logo != "none"){
 			var img = document.createElement("img");
 			img.src = company[0].logo;
