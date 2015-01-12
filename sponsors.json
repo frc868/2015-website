@@ -1,44 +1,93 @@
 {
+	"agile":[
+		{"name":"Agile Reasoning",
+		"logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/agile.png",
+		"description":"Agile Reasoning is an Indianapolis based software development firm specializing in tailor-made cloud apps. Our clients use our services to create public or private web apps with data processing capabilities well beyond the typical marketing oriented web site. Whether you're creating a new business from scratch or need a technology upgrade for your existing business, our staff of experienced developers and projects managers is ready to bring your vision to life.",
+		"website":"http://www.agilereasoning.com/",
+		"level":"bronze"}
+	],
+	"arc":[
+		{"name":"arcDESIGN",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/arc.jpg",
+		 "description":"At arcDESIGN, we believe great architecture is more than just attractive buildings and spaces.   We view your facility as a tool that will help you accomplish your goals and vision.  By working together, we will lead you through a process that will allow you to discover solutions to your specific needs and will maximize the potential of your built environment.",
+		 "website":"http://arcdesign.us",
+		 "level":"bronze"}
+	],
+	"archarch":[
+		{"name":"Architectural Archaeology",
+		"logo":"none",
+		"description":"none",
+		"website":"none",
+		"level":"bronze"}
+	],
 	"boeing":[
 		{"name":"Boeing",
-		"logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/boeing-logo.jpg",
-		"description":"Boeing is the world's leading aerospace company and the largest manufacturer of commercial jetliners and military aircraft combined. Additionally, Boeing designs and manufactures rotorcraft, electronic and defense systems, missiles, satellites, launch vehicles and advanced information and communication systems. As a major service provider to NASA, Boeing is the prime contractor for the International Space Station. The company also provides numerous military and commercial airline support services. Boeing provides products and support services to customers in 150 countries and is one of the largest U.S. exporters in terms of sales.",
-		"website":"http://www.boeing.com",
-		"level":"platinum"}
-	],
-	"rolls-royce":[
-		{"name":"Rolls-Royce",
-		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/rollsroyce.png",
-		 "description":"Rolls-Royce, a world-leading provider of power systems and services for use on land, at sea and in the air, operates in four global markets - civil aerospace, defense aerospace, marine and energy. We continue to invest in core technologies, products, people and capabilities with the objective of broadening and strengthening the product portfolio, improving efficiency and enhancing the environmental performance of its products.",
-		 "website":"http://www.rolls-royce.com/",
-		 "level":"signature"}
-	],
-	"chs":[
-		{"name":"CARMEL HIGH SCHOOL",
-		"logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/CarmelHS.jpg",
-		"description":"TechHOUNDS students all attend Carmel High School located in Carmel, Indiana. We are fortunate to have our well-equipped workspace and meeting places at the school itself. In addition, our school administration is notably supportive of all of our endeavors, not only in monetary contribution, but in attending our events and competitions.",
-		"website":"http://www.ccs.k12.in.us",
-		"level":"signature"}
-	],
-	"lentz":[
-		{"name":"Lentz Independent Consulting",
-		 "logo":"none",
-		 "description":"Providing contracting and subcontracting services in the Indianapolis area for Java/JEE software development, project management, business analysis, and testing.",
-		 "website":"none",
-		 "level":"gold"}
-	],
-	"moriarity":[
-		{"name":"Daniel F. and Ellen Frances Moriarty Fund for Technology and Leadership",
-		 "logo":"none",
-		 "description":"none",
-		 "website":"none",
-		 "level":"signature"}
-	],
-	"bastian":[
-		{"name":"Bastian Solutions",
-		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/Bastian_Solutions.jpg",
-		 "description":"Bastian Solutions is an independent material handling system integrator dedicated to helping customers improve their manufacturing, distribution, and logistics operations. The company provides system engineering and design, consulting and simulation, project management, and installation services, while sourcing the best material handling equipment and automation technologies. In addition, Bastian Solutions has developed its own suite of supply chain software and manufactures custom material handling technologies, robotic end of arm tools, and system control panels.",
-		 "website":"http://www.bastiansolutions.com/",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/boeing-logo.jpg",
+		 "description":"Boeing is the world`s leading aerospace company and the largest manufacturer of commercial jetliners and military aircraft combined. Additionally, Boeing designs and manufactures rotorcraft, electronic and defense systems, missiles, satellites, launch vehicles and advanced information and communication systems. As a major service provider to NASA, Boeing is the prime contractor for the International Space Station. The company also provides numerous military and commercial airline support services. Boeing provides products and support services to customers in 150 countries and is one of the largest U.S. exporters in terms of sales.",
+		 "website":"http://www.boeing.com",
 		 "level":"platinum"}
+	],
+	"carmelortho":[
+		{"name":"Carmel Orthodontics",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/carmel-orthodontics.png",
+		 "description":"Dr. Ronald Miller and our entire staff here at Carmel Orthodontics love our work. Every day begins with the knowledge that we are going to help our patients attain excellent oral health and beautiful smiles. The day passes with time to chat and catch up with our patients as we make any necessary orthodontic adjustments. And the work day ends with the satisfaction of knowing we have made positive changes in the lives of our patients. It is an incredible job and we are truly thankful for it.",
+		 "website":"http://www.carmelorthodontics.com",
+		 "level":"bronze"}
+	],
+	"catalyst":[
+		{"name":"Catalyst Technology Group",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/catalysttech.png",
+		 "description":"Catalyst Technology Group is an IT consulting firm. We provide IT support, technology infrastructure, and custom enterprise-level business applications to clients throughout the United States. and provide ongoing IT support and management for those projects.",
+		 "website":"http://www.catalysttg.com",
+		 "level":"silver"}
+	],
+	"cdi":[
+		{"name":"Center for Diagnostic Imaging",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/cdi.png",
+		 "description":"CDI offers the highest quality of care through a network of outpatient imaging centers and mobile facilities in more than thirty states. Headquartered in Minneapolis, Minnesota; the organization serves more than one million patients a year through a diverse set of customers including healthcare providers, managed care organizations, hospitals, health systems and payors (government and third party).",
+		 "website":"http://www.mycdi.com",
+		 "level":"bronze"}
+	],
+	"edwardjones":[
+		{"name":"Edward Jones Insurance",
+		 "logo":"none",
+		 "description":"Edward Jones is one of the nation’s fastest-growing financial services firms. We currently serve nearly 7 million clients through our network of more than 12,000 branch offices. We are seeking highly motivated, results-oriented individuals as we continue to grow and meet the needs of the long-term individual investor.",
+		 "website":"https://www.edwardjones.com",
+		 "level":"bronze"}
+	],
+	"coffings":[
+		{"name":"Coffing's Ro-Way Door Sales & Services Inc.",
+		 "logo":"none",
+		 "description":"Coffing's Ro-Way Door Sales & Service Inc. offers Logansport, IN area with garage doors and dock equipment. Family owned and operated for over 45 years, Coffing's Ro-Way Door Sales & Service Inc. has knowledgeable employees who deliver prompt service.",
+		 "website":"http://www.coffings.com",
+		 "level":"bronze"}
+	],
+	"delphi":[
+		{"name":"Delphi Foundation",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/Delphi-Foundation.jpg",
+		 "description":"Delphi is a leading global supplier of electronics and technologies for automotive, commercial vehicle and other market segments. Operating major technical centers, manufacturing sites and customer support facilities in 30 countries, Delphi delivers real-world innovations that make products smarter and safer as well as more powerful and efficient.",
+		 "website":"http://www.delphi.com",
+		 "level":"platinum"}
+	],
+	"dss":[
+		{"name":"Digital Sight & Sound",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/dss.png",
+		 "description":"Digital Sight & Sound sells, installs, and services commercial and residential low voltage systems. The company was founded in 1999 by Ray Rice to provide Custom Audio and Video sales and installation services to high end residential customers. Services provided are Digital Signage, Audio service for background music, paging systems, alarm services, telephone systems, access control, CCTV, conference rooms and training rooms systems, video conferencing, automation, computer networks and more.",
+		 "website":"http://dssindy.com",
+		 "level":"bronze"}
+	],
+	"eye":[
+		{"name":"Eye Level Learning",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/eyelevellearning.jpg",
+		 "description":"At Eye Level, a premier supplemental education and enrichment program, students are offered innovative and effective methods, in a fun and exciting learning environment, where self-directed learning, individualized academic coaching, and critical thinking are at the core of helping children improve and excel in their academic pursuits. As positive study habits and valuable personality traits develop, these skills will also translate to all facets of life.",
+		 "website":"http://www.myeyelevel.com",
+		 "level":"silver"}
+	],
+	"ftm":[
+		{"name":"Fincancial Technologies & Management",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/ftm.png",
+		 "description":"Financial Technologies & Management is a full service software technology and financial management CPA firm that has assisted over 200 nonprofit, schools and religious organizations to improve their financial operations since 2000. Our approach is to truly understand the organization through a comprehensive needs assessment and financial review. Only then can we provide specific recommendations towards improving an organization`s financial management capacity and financial operations.",
+		 "website":"http://www.ftmllc.com",
+		 "level":"gold"}
 	]
 }
