@@ -16,3 +16,9 @@ img:nth-child(1) {
     align: center;
     background-color: #293269;
 }
+.navbar {
+    background-color: #000099;
+}
+.dropdown {
+    text-color: white;
+}
