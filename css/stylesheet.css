@@ -16,20 +16,19 @@ p {
 img:nth-child(1) {
     border: 0px none;
     align: center;
-<<<<<<< HEAD
+
     background-color: #000000;
-=======
-    background-color: #293269;
-<<<<<<< HEAD
+
+
+
 }
 .navbar {
-    background-color: #000099;
+    background-color: #12337A;
 }
 .dropdown {
     text-color: white;
 }
-=======
->>>>>>> e686bf02cb799791f216c649a5cb4324afcced1c
+
     max-width: 100%;
 }
->>>>>>> 733847d23fa6e0e2e5071ea3901fd3fee9d53bb9
+
