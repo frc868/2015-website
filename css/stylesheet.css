@@ -1,5 +1,7 @@
 /*This is the css file*/
-    
+body {
+    background-color: #191A1C;
+}
 
 p {
     font-size: 150%;
@@ -15,4 +17,5 @@ img:nth-child(1) {
     border: 0px none;
     align: center;
     background-color: #293269;
+    max-width: 100%;
 }
