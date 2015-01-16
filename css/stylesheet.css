@@ -17,15 +17,15 @@ img:nth-child(1) {
     border: 0px none;
     align: center;
     background-color: #293269;
-<<<<<<< HEAD
 }
 .navbar {
-    background-color: #000099;
+  
 }
 .dropdown {
     text-color: white;
 }
-=======
-    max-width: 100%;
+h5 {
+    text-color: white;
 }
->>>>>>> 733847d23fa6e0e2e5071ea3901fd3fee9d53bb9
+
+
