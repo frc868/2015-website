@@ -6,12 +6,13 @@ p {
 }
 
 .headerImage {
-    max-width: 100%;
-    width: 100%;
-    text-align: center;
+   max-width: 100%;
+   width: 100%;
+   text-align: center;
    font-size: 100%;
 }
-img {
+img:nth-child(1) {
     border: 0px none;
     align: center;
+    background-color: #293269;
 }
