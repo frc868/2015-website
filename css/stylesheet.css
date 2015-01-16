@@ -1,9 +1,17 @@
 /*This is the css file*/
-.headerImage {
-    font-size: 100%;
-}
+    
+
 p {
     font-size: 150%;
 }
 
-
+.headerImage {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+   font-size: 100%;
+}
+img {
+    border: 0px none;
+    align: center;
+}
