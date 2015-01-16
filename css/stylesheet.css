@@ -1,6 +1,6 @@
 /*This is the css file*/
 body {
-    background-color: #191A1C;
+    background-color: #000000;
 }
 
 p {
@@ -16,6 +16,6 @@ p {
 img:nth-child(1) {
     border: 0px none;
     align: center;
-    background-color: #293269;
+    background-color: #000000;
     max-width: 100%;
 }
