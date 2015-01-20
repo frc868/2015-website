@@ -50,12 +50,9 @@ img:nth-child(1) {
     font-size: 20px;
     background-color: #ffffff;
 }
-.whitebackground {
-    background-color: #ffffff;
-}
 .bodyContainer {
     margin: auto;
     padding: 5px;
     overflow: hidden;
-    background-color: white;
+    background-color: #fffff;
 }
