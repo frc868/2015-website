@@ -3,8 +3,10 @@ body {
     background-color: #000000;
 }
 
-p {
+p:nth-child(1) {
     font-size: 60px;
+    font-color: #000000;
+    text-align: left;
 }
 
 .headerImage {
@@ -22,8 +24,8 @@ img:nth-child(1) {
 
 }
 .navbar {
-    background-color: #12337A;
-
+    background-color: #000000;
+ /*#12337A;8*/
     background-color: #000000;
 }
 
@@ -33,5 +35,12 @@ img:nth-child(1) {
 }
 
 .Aboutteam868 { /*About Team 868*/
+    background-color: #ffffff;
+}
+.OurStory {
+    font-size: 20px;
+    background-color: #ffffff;
+}
+.whitebackground {
     background-color: #ffffff;
 }
