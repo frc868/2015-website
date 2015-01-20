@@ -131,5 +131,117 @@
 		 "description":"\"With the unified IP business communications offering from Interactive Intelligence, your business gets complete solutions. A complete contact center platform for multichannel interactions, offered with a choice of deployment models – as a cloud service, on-premises, or a managed service where we do it all. IP telephony that extends scalable, application-rich IP PBX and messaging functionality throughout the enterprise. Business process automation to automate multi-step people-centric processes, and document management solutions to handle even the most extensive information volumes. Our industry solutions are complete and tailored with expertise in accounts receivable management, financial institutions, government agencies, the insurance industry, and outsourcers.\"",
 		 "website":"http://www.inin.com",
 		 "level":"gold"}
+	],
+	"lentz":[
+		{"name":"Lentz Independent Consulting",
+		 "logo":"none",
+		 "description":"\"Providing contracting and subcontracting services in the Indianapolis area for Java/JEE software development, project management, business analysis, and testing.\"",
+		 "website":"http://lentzic.com",
+		 "level":"gold"}
+	],
+	"moriarity":[
+		{"name":"Daniel F. and Ellen Frances Moriarty Fund for Technology and Leadership",
+		 "logo":"none",
+		 "description":"none",
+		 "website":"none",
+		 "level":"diamond"}
+	],
+	"chs":[
+		{"name":"Carmel High School",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/CarmelHS.jpg",
+		 "description":"\"TechHOUNDS students all attend Carmel High School located in Carmel, Indiana. We are fortunate to have our well-equipped workspace and meeting places at the school itself. In addition, our school administration is notably supportive of all of our endeavors, not only in monetary contribution, but in attending our events and competitions.\"",
+		 "website":"http://www.ccs.k12.in.us/chs/home",
+		 "level":"signature"}
+	],
+	"multimedia":[
+		{"name":"Multimedia Memories",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/Multimedia-Memories.png",
+		 "description":"\"Multimedia Memories is your source for custom, keepsake DVDs from your photo and videos. We edit video, transfer home movies to DVD, create video and photo montages for any occasion.\"",
+		 "website":"http://www.multimediamemoriesindy.com",
+		 "level":"bronze"}
+	],
+	"fat-atom":[
+		{"name":"Fat Atom",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/fat-atom.jpg",
+		 "description":"\"Fat Atom is an \"outside the box\" marketing agency that is edgy enough to scare you and skilled enough to impress you. Services we perform for our clients: Strategy and Consulting, Branding, Content Marketing, Inbound Lead Generation, Outbound Lead Generation, Graphic Design, Web Development, PR, Content Writing, Social Media, Full Service Email Marketing, SEM (PPC, Internet Advertising Management & SEO) Photography and Video Production.\"",
+		 "website":"http://fatatom.com",
+		 "level":"bronze"}
+	],
+	"ismus":[
+		{"name":"Ismus LLC",
+		 "logo":"none",
+		 "description":"\"We offer a full range of professional consulting services to help maximize the value of your business investment. We have helped businesses of all kinds enhance operational efficiency, Security and Safety as well as drive levels of performance, while improving customer satisfaction and loyalty. We have the resources your organization needs.  —including the tools and accelerators, and the experienced team—to successfully guide your projects from strategy to completion. We leverage our enormous base of experience, wealth of best practice resources, and the latest quality management techniques to provide you with high-value services and deliverables that will improve your business. Our highly regarded consulting services can help you address a wide variety of business challenges. Give us a call today to find out how we can help you thrive.\"",
+		 "website":"http://ismusllc.com",
+		 "level":"bronze"}
+	],
+	"kona":[
+		{"name":"Kona Jack's",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/kona.png",
+		 "description":"\"Kona Jack’s Restaurant, Fish Market and Sushi Bar, named Best Seafood Restaurant for ten years running by Indianapolis Monthly, and Best Seafood Restaurant by Nuvo Newsweekly, boasts the widest array of fresh and salt-water fish, shellfish, clams, oysters, and sushi in the Midwest.\"",
+		 "website":"http://jacksarebetter.net",
+		 "level":"bronze"}
+	],
+	"park":[
+		{"name":"Park Avenue Rentals",
+		 "logo":"none",
+		 "description":"none",
+		 "website":"none",
+		 "level":"bronze"}
+	],
+	"manoj":[
+		{"name":"Manoj Kumar",
+		 "logo":"none",
+		 "description":"none",
+		 "website":"none",
+		 "level":"silver"}
+	],
+	"performance-metals":[
+		{"name":"Performance Metals",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/performance%20metals.png",
+		 "description":"\"Performance Metals began producing quality stainless steel sheet products in 1985. Conveniently located at the \"Crossroads of America\", we are situated close to stainless producing mills and major markets. In addition to this cost advantage, our focus on quality and service has yeilded long term partnerships with our customers. We stock a full range of 300 and 400 series stainless sheet. Our capabilities include: precision blanks, slit coil and pattern sheets. Additionally, we offer stainless steel tube products, aluminum sheared blanks and sheet.\"",
+		 "website":"http://performancemetals.biz",
+		 "level":"bronze"}
+	],
+	"pts":[
+		{"name":"Polymer Technology Systems, Inc.",
+		 "logo":"http://techhounds.com/data/uploads/page-photos/sponsors/pts.jpg",
+		 "description":"\"Polymer Technology Systems, Inc. (PTS, Inc.) is a global provider of point-of-care diagnostic products to the healthcare industry. Headquartered in Indianapolis, Indiana, PTS, Inc. manufactures products for distribution in 100 countries around the world.\"",
+		 "website":"http://www.cardiochek.com",
+		 "level":"gold"}
+	],
+	"redali":[
+		{"name":"Redali Consulting, Inc.",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/redali.png",
+		 "description":"\"Redali Consulting offers a wide range of research, design and development services. We believe it is important to maximize the usability and utility of the front end of your product while minimizing the maintenance and support of the back end. Iterative research and design is key.\"",
+		 "website":"http://www.redali.com",
+		 "level":"platinum"}
+	],
+	"revtech":[
+		{"name":"Revelant Technologies",
+		 "logo":"none",
+		 "description":"\"Founded in 2003, Revelant Technologies is an independent IT professional services firm that optimizes business processes by delivering best-in-class customer relationship practices and technologies for projects large and small.\"",
+		 "website":"http://www.revelanttech.com",
+		 "level":"gold"}
+	],
+	"tiek":[
+		{"name":"Tiek Dental Studio",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/tiek.jpg",
+		 "description":"\"Started in the heart of Carmel, our office is now a more dedicated and personalized studio for cosmetic and family dentistry! While focusing on giving our patients the highest quality dental treatment, we want to provide a warm and friendly environment that helps the patient know that we care. Our goal is to help you achieve any dental goal you have in mind, and to do so with care and precision.\"",
+		 "website":"tiekdental.com",
+		 "level":"bronze"}
+	],
+	"parnest":[
+		{"name":"Parnest",
+		 "logo":"none",
+		 "description":"none",
+		 "website":"none",
+		 "level":"bronze"}
+	],
+	"westfield":[
+		{"name":"Westfield Steel",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/westfield-steel.png",
+		 "description":"\"Westfield Steel is an independent, family-owned business.  Our headquarters and main processing center is in Westfield, IN.  Since our start in 1977, we have grown to accommodate our customers’ needs.  We credit our success to our quality people and the capacity to provide our customers quality material and processing.\"",
+		 "website":"http://www.westfieldsteel.com",
+		 "level":"bronze"}
 	]
 }
