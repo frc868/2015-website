@@ -218,9 +218,30 @@
 	],
 	"revtech":[
 		{"name":"Revelant Technologies",
-		 "logo":"",
+		 "logo":"none",
 		 "description":"\"Founded in 2003, Revelant Technologies is an independent IT professional services firm that optimizes business processes by delivering best-in-class customer relationship practices and technologies for projects large and small.\"",
 		 "website":"http://www.revelanttech.com",
 		 "level":"gold"}
+	],
+	"tiek":[
+		{"name":"Tiek Dental Studio",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/tiek.jpg",
+		 "description":"\"Started in the heart of Carmel, our office is now a more dedicated and personalized studio for cosmetic and family dentistry! While focusing on giving our patients the highest quality dental treatment, we want to provide a warm and friendly environment that helps the patient know that we care. Our goal is to help you achieve any dental goal you have in mind, and to do so with care and precision.\"",
+		 "website":"tiekdental.com",
+		 "level":"bronze"}
+	],
+	"parnest":[
+		{"name":"Parnest",
+		 "logo":"none",
+		 "description":"none",
+		 "website":"none",
+		 "level":"bronze"}
+	],
+	"westfield":[
+		{"name":"Westfield Steel",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/westfield-steel.png",
+		 "description":"\"Westfield Steel is an independent, family-owned business.  Our headquarters and main processing center is in Westfield, IN.  Since our start in 1977, we have grown to accommodate our customers’ needs.  We credit our success to our quality people and the capacity to provide our customers quality material and processing.\"",
+		 "website":"http://www.westfieldsteel.com",
+		 "level":"bronze"}
 	]
 }
