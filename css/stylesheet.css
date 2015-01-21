@@ -7,11 +7,7 @@ body {
     color: #333333;
 }
 
-p:nth-child(1) {
-    font-size: 60px;
-    font-color: #000000;
-    text-align: left;
-}
+
 
 .headerImage {
    max-width: 100%;
@@ -419,4 +415,9 @@ h5 {
     background-color: white;
     float: right;
     margin: 5px 5px 5px 5px;
+}
+.footer {
+    float: left;
+    font-size: 14px;
+    font-family: Monospace;
 }
