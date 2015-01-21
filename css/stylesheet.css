@@ -180,6 +180,7 @@ p:nth-child(1) {
 .dropdownMenu > li {
     white-space: nowrap;
 	display: inline-block;
+	text-align: center;
     -webkit-transition: all 130ms ease-in-out;
     -moz-transition: all 130ms ease-in-out;
     transition: all 130ms ease-in-out;
@@ -187,6 +188,7 @@ p:nth-child(1) {
 
 .dropdownMenu > li:hover{
     background-color:#fbd406;
+	cursor: pointer;
 }
 
 .active {
@@ -387,11 +389,6 @@ p:nth-child(1) {
 }
 .sponsors {
     background-color: white;
-}
-img:nth-child(2) {
-   background-color: white;
-   align: center;
-   border: 1px solid gray;
 }
 .section3 {
     text-align: center;
