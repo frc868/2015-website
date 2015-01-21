@@ -176,7 +176,8 @@ img:nth-child(1) {
 }
 
 .dropdownMenu > li {
-    white-space: nowrap;	
+    white-space: nowrap;
+	display: inline-block;
     -webkit-transition: all 130ms ease-in-out;
     -moz-transition: all 130ms ease-in-out;
     transition: all 130ms ease-in-out;
