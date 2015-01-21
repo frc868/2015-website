@@ -425,3 +425,12 @@ h5 {
 .recyclerush {
     float: left;
 }
+.sponsorlevel {
+    font-size: 25px;
+}
+.sponsortext {
+    float: left;
+}
+.sponsortext2 {
+    float: right;
+}
