@@ -377,13 +377,10 @@ img:nth-child(1) {
     background-color: #ffffff;
 }
 .bodyContainer {
-    background-color: white;
-}
-.bodyContainer {
     margin: auto;
-    padding: 5px;
+    padding: 25px;
     overflow: hidden;
-    background-color: #fffff;
+    background-color: white;
 }
 .sponsors {
     background-color: white;
@@ -407,4 +404,17 @@ body {
 }
 html {
     font-family: sans-serif;
+    background-color: white;
+    width: 1200;
+}
+h1{
+    font-size: 50px;
+    line-height: 25px;
+}
+h3{
+    font-size: 35px;
+    line-height: 15px;
+}
+h5 {
+    font-size: 20px;
 }
