@@ -397,3 +397,35 @@ img:nth-child(2) {
 
 
 
+<<<<<<< HEAD
+=======
+element {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.section3 {
+    text-align: center;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: black;
+}
+html {
+    font-family: sans-serif;
+    background-color: white;
+    width: 1200;
+}
+h1{
+    font-size: 50px;
+    line-height: 25px;
+}
+h3{
+    font-size: 35px;
+    line-height: 15px;
+}
+h5 {
+    font-size: 20px;
+}
+>>>>>>> 294b56be2ed4cd9a031051a2f2c6335cb48a6850
