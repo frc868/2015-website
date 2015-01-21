@@ -20,11 +20,6 @@ p:nth-child(1) {
    font-size: 100%;
    vertical-align: text-top;
 }
-img:nth-child(1) {
-    border: 0px none;
-    align: center;
-    background-color: #000000;
-}
 .button {
     width: 100px;
     height: 50px;
