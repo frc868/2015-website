@@ -71,7 +71,7 @@ function test(sponsorDiv){
 
 function requestData() {
 	$.ajax({
-		url: "sponsors.json",
+		url: "http://www.techhounds.com/data/uploads/files-and-forms/sponsors.json",
 		dataType: "json",
 		cache: false,
 		async: true,
