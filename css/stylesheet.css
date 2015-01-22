@@ -7,11 +7,7 @@ body {
     color: #333333;
 }
 
-p:nth-child(1) {
-    font-size: 60px;
-    font-color: #000000;
-    text-align: left;
-}
+
 
 .headerImage {
    max-width: 100%;
@@ -404,6 +400,7 @@ h1{
 h3{
     font-size: 35px;
     line-height: 15px;
+    
 }
 h5 {
     font-size: 20px;
@@ -411,4 +408,29 @@ h5 {
 .first {
     float: right;
     background-color: white;
+    padding: 6px 6px 6px 6px;
+}
+.socialmedia {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    float: right;
+    margin: 5px 5px 5px 5px;
+}
+.footer {
+    float: left;
+    font-size: 14px;
+}
+.recyclerush {
+    float: left;
+}
+.sponsorlevel {
+    font-size: 25px;
+}
+.sponsortext {
+    float: left;
+}
+.sponsortext2 {
+    float: right;
 }
