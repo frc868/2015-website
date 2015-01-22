@@ -425,8 +425,14 @@ h5 {
 	font-size: 25px;
 }
 .sponsortext {
-	float: left;
+	display:inline-block;
+	vertical-align: middle;
+	width: 18%;
+	margin: 0 10px;
 }
-.sponsortext2 {
-	float: right;
+.sponsortext > img {
+	max-width: 100%;
+}
+.front-page-text {
+	font-size: 19px;
 }
