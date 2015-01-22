@@ -153,13 +153,9 @@ hr {
 }
 .dropdownMenu {
     display:none;
-    background-color:#fff;
     position:static;
     list-style:none;
-    float:none;
     text-align:left;
-	// -webkit-border-radius: 0 0 3px 3px;
-	// border-radius: 0 0 3px 3px;
     z-index:1033;
     padding-left:10px;	
     -webkit-transition: all 130ms ease-in-out;
@@ -180,8 +176,8 @@ hr {
 
 .dropdownMenu > li {
     white-space: nowrap;
-	display: inline-block;
-	text-align: center;
+	opacity: 0.925;
+	background-color: #fff;
     -webkit-transition: all 130ms ease-in-out;
     -moz-transition: all 130ms ease-in-out;
     transition: all 130ms ease-in-out;
@@ -189,6 +185,7 @@ hr {
 
 .dropdownMenu > li:hover{
     background-color:#fbd406;
+	opacity: 1;
 	cursor: pointer;
 }
 
