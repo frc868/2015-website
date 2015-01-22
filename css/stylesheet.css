@@ -6,15 +6,20 @@ body {
     line-height: 1.428571429;
     color: #333333;
 }
-
-
-
+hr {
+	border-width: 1px 0px 0px;
+	border-style: solid none none;
+	border-color: #ccc;
+}
+.clearfix {
+	overflow:hidden;
+}
 .headerImage {
-   max-width: 100%;
-   width: 100%;
-   text-align: center;
-   font-size: 100%;
-   vertical-align: text-top;
+	max-width: 100%;
+	width: 100%;
+	text-align: center;
+	font-size: 100%;
+	vertical-align: text-top;
 }
 .button {
     width: 100px;
@@ -100,8 +105,8 @@ body {
 }
 
 .nav > ul > li:hover > a {
-		color:#555;
-		text-shadow:0 1px 0 #fff;
+	color:#555;
+	text-shadow:0 1px 0 #fff;
 }
 
 
@@ -372,65 +377,59 @@ body {
     .thumbnail.photos{
 		max-width:23.3774%;
     }
+}
 .OurStory {
-    font-size: 20px;
-    background-color: #ffffff;
+	font-size: 20px;
+	background-color: #ffffff;
 }
 .bodyContainer {
-    margin: auto;
-    padding: 25px;
-    overflow: hidden;
-    background-color: white;
-    width: 1200px;
+	margin: auto;
+	padding: 25px;
+	overflow: hidden;
+	background-color: white;
+	width: 1200px;
 }
 .sponsors {
-    background-color: white;
+	background-color: white;
 }
 .section3 {
-    text-align: center;
+	text-align: center;
 }
-html {
-    font-family: sans-serif;
-    background-color: white;
+h1 {
+	font-size: 50px;
 }
-h1{
-    font-size: 50px;
-    line-height: 25px;
-}
-h3{
-    font-size: 35px;
-    line-height: 15px;
-    
+h3 {
+	font-size: 35px;
 }
 h5 {
-    font-size: 20px;
+	font-size: 20px;
 }
 .first {
-    float: right;
-    background-color: white;
-    padding: 6px 6px 6px 6px;
+	text-align: center;
+	background-color: white;
+	padding: 6px 6px 6px 6px;
 }
 .socialmedia {
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-    background-color: white;
-    float: right;
-    margin: 5px 5px 5px 5px;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: white;
+	float: right;
+	margin: 5px 5px 5px 5px;
 }
 .footer {
-    float: left;
-    font-size: 14px;
+	float: left;
+	font-size: 14px;
 }
 .recyclerush {
-    float: left;
+	float: left;
 }
 .sponsorlevel {
-    font-size: 25px;
+	font-size: 25px;
 }
 .sponsortext {
-    float: left;
+	float: left;
 }
 .sponsortext2 {
-    float: right;
+	float: right;
 }
