@@ -417,6 +417,7 @@ h5 {
 .footer {
 	float: left;
 	font-size: 14px;
+	background-color: #e1edfa;
 }
 .recyclerush {
 	float: left;
@@ -435,4 +436,16 @@ h5 {
 }
 .front-page-text {
 	font-size: 19px;
+}
+.sitemaptabs {
+	font-size: 17px;
+}
+.sitemap {
+	font-size: 15px;
+}
+.sitemapcolor {
+	background-color: #E1EDFA;
+}
+.footercolor {
+	background-color: #e1edfa;
 }
