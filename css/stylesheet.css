@@ -430,7 +430,7 @@ h5 {
 	width: 18%;
 	margin: 0 10px;
 }
-.sponsortext > img {
+.sponsortext img {
 	max-width: 100%;
 }
 .front-page-text {
@@ -460,6 +460,24 @@ h5 {
 	color: #5c5c5c;
 }
 .sitemaplinks:visited {
-	color: #5c5c5c ;
+	color: #5c5c5c;
 }
-
+.CHS {
+	height: 250px;
+	width: auto;
+}
+.Boeing {
+	height: 50px;
+	width: auto;
+}
+.Delphi {
+	height: 50px;
+	width: auto;
+}
+.Redali {
+	height: 65px;
+	width: auto;
+}
+h4 {
+	font-size: 150%;
+}
