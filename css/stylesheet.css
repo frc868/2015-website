@@ -430,7 +430,7 @@ h5 {
 	width: 18%;
 	margin: 0 10px;
 }
-.sponsortext > img {
+.sponsortext img {
 	max-width: 100%;
 }
 .front-page-text {
@@ -460,6 +460,8 @@ h5 {
 	color: #5c5c5c;
 }
 .sitemaplinks:visited {
-	color: #5c5c5c ;
+	color: #5c5c5c;
 }
-
+h4 {
+	font-size: 150%;
+}
