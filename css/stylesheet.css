@@ -455,4 +455,11 @@ h5 {
 	text-align: center;
 	font-weight: bold;
 }
+.sitemaplinks {
+	text-decoration: none;
+	color: #5c5c5c;
+}
+.sitemaplinks:visited {
+	color: #5c5c5c ;
+}
 
