@@ -13,6 +13,7 @@ hr {
 }
 .clearfix {
 	overflow:hidden;
+	
 }
 .headerImage {
 	max-width: 100%;
@@ -465,3 +466,21 @@ h5 {
 h4 {
 	font-size: 150%;
 }
+.FRC {
+	background-image: url("http://www.techhounds.com/theme/TechHOUNDS%20Theme/image_library/home/pit.png");
+	background-size: 1200px 400px;
+	opacity: 0.5;
+}
+.FRCletters {
+	font-color: black;
+	font-size: 43px;
+	opacity: 1;
+	text-align: center;
+}
+.FRCletter {
+	font-color: black;
+	font-size: 25px;
+	opacity: 1;
+	text-align: center;
+}
+	
