@@ -13,7 +13,6 @@ hr {
 }
 .clearfix {
 	overflow:hidden;
-	
 }
 .headerImage {
 	max-width: 100%;
@@ -109,8 +108,6 @@ hr {
 	color:#555;
 	text-shadow:0 1px 0 #fff;
 }
-
-
 .caret {
     display:inline-block;
     border-top:4px solid #000;
@@ -122,11 +119,9 @@ hr {
     -moz-transition: all 130ms ease-in-out;
     transition: all 130ms ease-in-out;
 }
-
 .dropdown:hover .caret{
     border-top:4px solid #555;
 }
-
 .nav.mobileDisplay {
     display:block;
 	overflow: auto;
@@ -135,7 +130,6 @@ hr {
 	background-color:white;
 	-webkit-overflow-scrolling: touch;
 }
-
 .nav.mobileDisplay > ul > li > a {
 	font-weight:normal;
 }
@@ -384,7 +378,8 @@ hr {
 	padding: 0px;
 	overflow: hidden;
 	background-color: white;
-	width: 1267px;
+	width: 100%;
+	margin:auto;
 }
 .sponsors {
 	background-color: white;
@@ -504,7 +499,7 @@ h4 {
 .FRC3 {
 	color: #FFF;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) repeat scroll 0% 0%, url('https://www.spartabots.org/images/RecycleRush.png') repeat scroll 0% 0% transparent;
-	height: 700px;
+	height: 600px;
 	background-size: cover;
 	background-position: 100% 100%;
 }
