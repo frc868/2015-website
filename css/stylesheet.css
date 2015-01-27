@@ -5,6 +5,7 @@ body {
     font-size: 14px;
     line-height: 1.428571429;
     color: #333333;
+	min-height: 100%;
 }
 hr {
 	border-width: 1px 0px 0px;
@@ -490,16 +491,18 @@ h4 {
 }
 .FRC2 {
 	color: #FFF;
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) repeat scroll 0% 0%, url('http://www.usfirst.org/uploadedImages/Robotics_Programs/FRC/FRC_Communications_Resource_Center/Branding_and_Logos/FIRST_horz.gif') repeat scroll 0% 0% transparent;
-	height: 500px;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) repeat scroll 0% 0%, url('http://www.chiefdelphi.com/media/img/344/344d93fe3eb4e6c5f77c0901f2650741_l.jpg') no-repeat center center;
+	height: 100%;
 	background-size: cover;
-	background-position: 100% 100%;
+	background-position: 76% 25%;
+	min-height: 100%;
 }
 .frontpagetext {
 	padding: 7px;
 	font-size: 22px;
 	text-align: center;
 	padding: 7px;
+	
 }
 .FRC3 {
 	color: #FFF;
