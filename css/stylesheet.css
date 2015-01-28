@@ -503,7 +503,7 @@ h4 {
 }
 .FRC3 {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) repeat scroll 0% 0%, url("../firstday.jpg") no-repeat center center;
-	height: 590px;
+	height: 477px;
 	background-size: cover;
 	background-position: 100% 100%;
 	border-top: 7px solid #5f5f5f;
@@ -544,5 +544,16 @@ h4 {
 	border-top: 7px solid #5f5f5f;
 	border-bottom: 7px solid #5f5f5f;
 }
-
+.youtubevid {
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+}
+.youtubevid:hover {
+	color: gray !important;
+}
+.youtubevid:visited {
+	color: white;
+}
 	
