@@ -18,9 +18,10 @@ $(window).on("load",function() {
             /* Check the location of each desired element */
             var objectBottom = $(this).offset().top + $(this).outerHeight();
             var windowBottom = $(window).scrollTop() + $(window).innerHeight();
+			var offset = 100;
             
             /* If the object is completely visible in the window, fade it in */
-            if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+            if ((objectBottom - offset)< windowBottom) { //object comes into view (scrolling down)
                 if ($(this).css('opacity')==0) {$(this).fadeTo(500,1);}
             }
             /*else { //object goes out of view (scrolling up)

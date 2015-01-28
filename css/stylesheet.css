@@ -412,6 +412,7 @@ h5 {
 .footer {
 	float: left;
 	font-size: 14px;
+	margin-left: 10px;
 }
 .recyclerush {
 	float: left;
