@@ -468,6 +468,7 @@ h4 {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) repeat scroll 0% 0%, url('http://www.techhounds.com/theme/TechHOUNDS%20Theme/image_library/home/pit.png') repeat scroll 0% 0% transparent;
 	height: 300px;
 	background-size: cover;
+	background-position: 100% -1%;
 }
 .FRCletters {
 	font-color: white;
@@ -495,9 +496,7 @@ h4 {
 .frontpagetext {
 	padding: 7px;
 	font-size: 22px;
-	text-align: center;
-	padding: 7px;
-	
+	text-align: center;	
 }
 .FRC3 {
 	color: #FFF;
@@ -523,4 +522,19 @@ h4 {
 	text-align: center;
 	margin: 29px;
 	display: inline;
+	font-size: 20;
 }
+.stemtext {
+	font-size: 22px;
+	padding: 7px;
+	text-align: center;
+}
+.FRC4 {
+	color: #FFF;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) repeat scroll 0% 0%, url('http://indianafirst.rarebirdinc.com/files/868_at_champs.JPG') no-repeat center center;
+	height: 100%;
+	background-size: cover;
+	background-position: 76% 43%;
+	min-height: 100%;
+
+	
