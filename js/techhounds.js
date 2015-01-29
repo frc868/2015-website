@@ -22,8 +22,12 @@ $(window).on("load",function() {
             
             /* If the object is completely visible in the window, fade it in */
             if ((objectBottom - offset)< windowBottom) { //object comes into view (scrolling down)
+                if ($(this).css("box-shadow")==="rgba(0, 0, 0, 0.85) 0px 500px 0px 0px inset") {
+					$(this).addClass("fade");
+					$(this).children().fadeTo(500,1);
+				}
                 if ($(this).css('opacity')==0) {$(this).fadeTo(500,1);}
-            }
+			}
             /*else { //object goes out of view (scrolling up)
                 if ($(this).css('opacity')==1) {$(this).fadeTo(500,0);}
             }*/
