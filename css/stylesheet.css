@@ -642,15 +642,17 @@ h4 {
 	transition: all 500ms;
 	padding: 2px;
 	height: 300px;
+	margin: -1px;
 }
 .headertext1 {
-	font-size: 30px;
+	font-size: 75px;
 	font-weight: bold;
 	font-family: Helvetica;
 	text-align: center;
 	color: white;
-	font-size: 45px;
 	vertical-align: middle;
+	margin: 80px;
+	opacity: 0.6;
 }
 .front-page-text1 {
 	font-size: 22px;
