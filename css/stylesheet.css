@@ -473,6 +473,7 @@ h4 {
 }
 .FRC {
 	transition: all 500ms;
+	height: 300px !important;
 }
 .FRC2 {
 	background-image: url('http://www.chiefdelphi.com/media/img/344/344d93fe3eb4e6c5f77c0901f2650741_l.jpg');
@@ -675,4 +676,21 @@ h4 {
 	transition: all 500ms;
 	padding: 2px;
 	height: 300px;
+}
+.headertext3 {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Helvetica;
+	text-align: center;
+	color: black;
+	font-size: 45px;
+	vertical-align: middle;
+	margin: -2px;
+}
+.thumbnail {
+    padding: 7px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
 }
