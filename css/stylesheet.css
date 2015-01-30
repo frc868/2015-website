@@ -594,4 +594,31 @@ h4 {
 .youtubevid:visited {
 	color: white;
 }
-	
+.teampic {
+	margin: 0px;
+	font-size:0.9em;
+	max-width: 100%;
+	width: 1400px;
+	height: 1211px;
+}
+.fronttextabout868 {
+	font-size: 50px;
+	text-align: left;
+	font-weight: bold;
+	margin: 12px;
+	font-family: Verdana;
+}
+.headertext {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Verdana;
+}
+.simpletext {
+	font-size: 16px;
+	line-height: 1.42857;
+	color: #222222;
+	margin: 15px;
+}
+.padding {
+	padding: 10px;
+}
