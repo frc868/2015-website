@@ -398,6 +398,8 @@ hr {
 }
 h1 {
 	font-size: 50px;
+    text-align: center;
+	
 }
 h3 {
 	font-size: 35px;
@@ -594,7 +596,6 @@ h4 {
 .youtubevid:visited {
 	color: white;
 }
-<<<<<<< HEAD
 .OPheader {
 	margin: 12px;
 	font-size: 46px;
@@ -619,15 +620,15 @@ h4 {
 	text-align: left;
 	font-weight: bold;
 	margin: 12px;
-	font-family: Helvetica;
+	font-family: Verdana;
 }
 .headertext {
 	font-size: 30px;
 	font-weight: bold;
-	font-family: Helvetica;
+	font-family: Verdana;
 }
 .simpletext {
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 1.42857;
 	color: #222222;
 	margin: 15px;
@@ -635,25 +636,28 @@ h4 {
 .padding {
 	padding: 10px;
 }
-.FRC5 {
-    background-image: url("http://farm4.static.flickr.com/3835/14830678086_74733faa2b_b.jpg");
+.FRC6 {
+		background: url('http://www.techhounds.com/data/uploads/page-photos/trophies/copyimg_4974.jpg');
     background-repeat: repeat, repeat;
     background-attachment: scroll, scroll;
     background-clip: border-box, border-box;
     background-origin: padding-box, padding-box;
-    background-size: 1281px;
-    background-position: 100% 58%;
-	box-shadow: 0 500px 0 0 rgba(0, 0, 0, 0.5) inset;
+    background-size: 1220px;
+	box-shadow: 0 500px 0 0 rgba(0, 0, 0, 0.85) inset;
+	background-position: 65% 54%;
 	transition: all 500ms;
-	padding: 2px;
-	height: 300px;
+	height: 337px;
+	margin: -21px;
 }
-.headertext1 {
+.headertext2 {
 	font-size: 30px;
 	font-weight: bold;
-	font-family: Helvetica;
+	font-family: Verdana;
+	opacity: .7;
 	text-align: center;
-	color: white;
-	font-size: 45px;
-	vertical-align: middle;
+}
+.awardstext {
+	font-size: 16px;
+	font-family: Verdana;
+	Text-align: center;
 }
