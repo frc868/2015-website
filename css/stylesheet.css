@@ -594,4 +594,15 @@ h4 {
 .youtubevid:visited {
 	color: white;
 }
-	
+.OPheader {
+	margin: 12px;
+	font-size: 46px;
+}
+.awards {
+	display: inline-table;
+}
+.OPpictures {
+	width: 50%;
+	height: auto;
+	text-align: center;
+}
