@@ -606,15 +606,16 @@ h4 {
 	text-align: left;
 	font-weight: bold;
 	margin: 12px;
-	font-family: Verdana;
 }
 .headertext {
-	font-size: 30px;
+	font-size: 75px;
 	font-weight: bold;
-	font-family: Verdana;
+	color: white;
+	opacity: .7;
+	text-align: center;
 }
 .simpletext {
-	font-size: 14px;
+	font-size: 20px;
 	line-height: 1.42857;
 	color: #222222;
 	margin: 15px;
@@ -623,7 +624,7 @@ h4 {
 	padding: 10px;
 }
 .FRC6 {
-		background: url('http://www.techhounds.com/data/uploads/page-photos/trophies/copyimg_4974.jpg');
+	background: url('http://www.techhounds.com/data/uploads/page-photos/trophies/copyimg_4974.jpg');
     background-repeat: repeat, repeat;
     background-attachment: scroll, scroll;
     background-clip: border-box, border-box;
@@ -633,29 +634,31 @@ h4 {
 	background-position: 65% 54%;
 	transition: all 500ms;
 	height: 337px;
-	margin: -21px;
+	margin: 0;
+	display: block;
+	line-height: 260px;
 }
 .headertext2 {
-	font-size: 30px;
-	padding: 2px;
-	height: 300px;
-	margin: -1px;
-}
-.headertext1 {
 	font-size: 75px;
 	font-weight: bold;
-	font-family: Verdana;
+	color: white;
 	opacity: .7;
 	text-align: center;
+	vertical-align: middle;
+	margin-top: 0px;
+}
+.headertext1 {
+	font-size: 45px;
+	font-weight: bold;
+	opacity: .7;
+	text-align: center;
+	color: black;
 }
 .awardstext {
-	font-size: 16px;
-	font-family: Verdana;
-	Text-align: center;
-	color: white;
-	vertical-align: middle;
-	margin: 80px;
-	opacity: 0.6;
+	font-size: 20px;
+	Text-align: left;
+	color: black;
+	margin: 0px 0px 0px 20px;
 }
 .front-page-text1 {
 	font-size: 22px;
@@ -692,4 +695,10 @@ h4 {
     border-radius: 4px;
     display: inline-block;
     cursor: pointer;
+}
+.quoteText {
+	font-size: 20px;
+	line-height: 1.42857;
+	color: #222222;
+	margin: 15px 15px 15px 55px
 }
