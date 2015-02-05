@@ -475,7 +475,9 @@ h4 {
 }
 .FRC {
 	transition: all 500ms;
-	height: 300px !important;
+	height: 335px !important;
+	background-color: #c1c1c1;
+	opacity: .9;
 }
 .FRC2 {
 	background-image: url('http://www.chiefdelphi.com/media/img/344/344d93fe3eb4e6c5f77c0901f2650741_l.jpg');
@@ -516,7 +518,7 @@ h4 {
 }
 .front-page-block > div {
 	display: inline-block;
-	width: auto;
+	width: 900px;
 	max-width:80%;
 	opacity: 0;
 	position: absolute;
