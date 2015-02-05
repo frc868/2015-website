@@ -616,7 +616,7 @@ h4 {
 	opacity: .7;
 	text-align: center;
 }
-.simpletext {
+.othertext {
 	line-height: 1.42857;
 	color: #222222;
 	margin: 5px;
@@ -667,7 +667,7 @@ h4 {
 	color: #222222;
 	margin-left: 50px;
 	margin-right: 50px;
-	font-size: 15px;
+	font-size: 20px;
 }
 .front-page-text1 {
 	font-size: 22px;
@@ -675,7 +675,7 @@ h4 {
 	padding: 7px;
 	color: #black;
 }
-.FRC7 {
+.Vision {
     background-image: url("http://farm4.static.flickr.com/3914/14666998070_d5f8e4bcf3_b.jpg");
     background-repeat: repeat, repeat;
     background-attachment: scroll, scroll;
@@ -711,13 +711,13 @@ h4 {
 	color: #222222;
 	margin: 15px 15px 15px 55px
 }
-.othertext {
+.simpletext {
 	font-size: 20px;
 	line-height: 1.42857;
 	color: #222222;
 	margin: 15px;
 }
-.FRC8 {
+.Process {
 	 background-image: url("http://farm8.static.flickr.com/7344/13884040646_1141f9ee52_b.jpg");
 	 background-repeat: repeat, repeat;
 	 background-attachment: scroll, scrool;
