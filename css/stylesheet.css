@@ -389,6 +389,9 @@ hr {
 	height: 100%;
 	margin:auto;
 }
+/*Index specific*/
+
+/*End Index specific*/
 .sponsors {
 	background-color: white;
 }
@@ -405,9 +408,6 @@ h3 {
 }
 h5 {
 	font-size: 20px;
-}
-.first {
-	text-align: center;
 }
 .socialmedia {
 	width: 50px;
@@ -472,6 +472,12 @@ h4 {
 	font-size: 22px;
 	text-align: center;
 	padding: 7px;
+}
+.front-page-text1 {
+	font-size: 22px;
+	text-align: center;
+	padding: 7px;
+	color: #black;
 }
 .FRC {
 	transition: all 500ms;
@@ -539,20 +545,6 @@ h4 {
 	width: 100%;
 	position: relative;
 }
-.FRCletter {
-	font-color: white;
-	font-size: 25px;
-	text-align: center;
-}
-.FRCwords {
-	opacity: 1;
-}
-.FRCword {
-	font-size: 51px;
-	text-align: center;
-	font-weight: bold;
-	font-color: black;
-}
 .stempic {
 	border-radius: 100%;
 	height: 100px;
@@ -566,11 +558,6 @@ h4 {
 	margin: 29px;
 	display: inline;
 	font-size: 20;
-}
-.stemtext {
-	font-size: 22px;
-	padding: 7px;
-	text-align: center;
 }
 .youtubevid {
 	text-align: center;
@@ -624,7 +611,7 @@ h4 {
 .padding {
 	padding: 10px;
 }
-.FRC6 {
+.Awards {
 	background: url('http://www.techhounds.com/data/uploads/page-photos/trophies/copyimg_4974.jpg');
     background-repeat: repeat, repeat;
     background-attachment: scroll, scroll;
@@ -638,22 +625,6 @@ h4 {
 	margin: 0;
 	display: block;
 	line-height: 260px;
-}
-.headertext2 {
-	font-size: 75px;
-	font-weight: bold;
-	color: white;
-	opacity: .7;
-	text-align: center;
-	vertical-align: middle;
-	margin-top: 0px;
-}
-.headertext1 {
-	font-size: 45px;
-	font-weight: bold;
-	opacity: .7;
-	text-align: center;
-	color: black;
 }
 .awardstext {
 	line-height: 1.42857;
@@ -669,12 +640,23 @@ h4 {
 	margin-right: 5px;
 	font-size: 20px;
 }
-.front-page-text1 {
-	font-size: 22px;
+.headertext1 {
+	font-size: 45px;
+	font-weight: bold;
+	opacity: .7;
 	text-align: center;
-	padding: 7px;
-	color: #black;
+	color: black;
 }
+.headertext2 {
+	font-size: 75px;
+	font-weight: bold;
+	color: white;
+	opacity: .7;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 0px;
+}
+
 .Vision {
     background-image: url("http://farm4.static.flickr.com/3914/14666998070_d5f8e4bcf3_b.jpg");
     background-repeat: repeat, repeat;
@@ -688,16 +670,7 @@ h4 {
 	padding: 2px;
 	height: 300px;
 }
-.headertext3 {
-	font-size: 30px;
-	font-weight: bold;
-	font-family: Helvetica;
-	text-align: center;
-	color: black;
-	font-size: 45px;
-	vertical-align: middle;
-	margin: -2px;
-}
+
 .thumbnail {
     padding: 7px;
     border: 1px solid transparent;
