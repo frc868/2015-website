@@ -15,18 +15,28 @@ $('.navbar').on('affix-top.bs.affix', function () {
 $(window).on("load",function() {
     function fade() {
         $('.clearfix').each(function() {
+
             /* Check the location of each desired element */
             var objectBottom = $(this).offset().top + $(this).outerHeight();
             var windowBottom = $(window).scrollTop() + $(window).innerHeight();
 			var offset = 175;
+
+			//console.log(objectBottom - offset);
+			//console.log(windowBottom);
             
             /* If the object is completely visible in the window, fade it in */
-            if ((objectBottom - offset)< windowBottom) { //object comes into view (scrolling down)
-                if ($(this).css("box-shadow")==="rgba(0, 0, 0, 0.85) 0px 500px 0px 0px inset") {
+            if ((objectBottom - offset)< windowBottom) {
+				//console.log("fade");
+				//object comes into view (scrolling down)
+                if ($(this).hasClass("shadow")) {
+					console.log("fade");
 					$(this).addClass("fade");
 					$(this).children().fadeTo(500,1);
 				}
-                if ($(this).css('opacity')==0) {$(this).fadeTo(500,1);}
+                if ($(this).css('opacity')==0) {
+					console.log("fade2");
+					$(this).fadeTo(500,1);
+				}
 			}
             /*else { //object goes out of view (scrolling up)
                 if ($(this).css('opacity')==1) {$(this).fadeTo(500,0);}
