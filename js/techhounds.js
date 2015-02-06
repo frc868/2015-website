@@ -39,8 +39,8 @@ $(window).on("load",function() {
 				}
 			}
             /*else { //object goes out of view (scrolling up)
-                if ($(this).css('opacity')==1) {$(this).fadeTo(500,0);}
-            }*/
+              if ($(this).css('opacity')==1) {$(this).fadeTo(500,0);}
+              }*/
         });
     }
     fade(); //Fade in completely visible elements during page-load
