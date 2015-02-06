@@ -495,7 +495,7 @@ h5 {
 	font-size: 22px;
 	text-align: center;
 	padding: 7px;
-	color: #black;
+	color: black;
 }
 .headertext {
 	font-size: 75px;
@@ -542,7 +542,7 @@ h5 {
 	text-align: center;
 	margin: 29px;
 	display: inline;
-	font-size: 20;
+	font-size: 20px;
 }
 .sponsortext {
 	display:inline-block;
@@ -559,7 +559,7 @@ h5 {
 	border-radius: 10px;
 	background-color: white;
 	float: right;
-	margin: 5px 5px 5px 5px;
+	margin: 5px;
 }
 .footer {
 	float: left;
