@@ -409,6 +409,7 @@ hr {
 .FIRST {
 	background-image: url('http://www.chiefdelphi.com/media/img/344/344d93fe3eb4e6c5f77c0901f2650741_l.jpg');
 	background-position: 76% 25%;
+<<<<<<< HEAD
     background-repeat: repeat, repeat;
     background-attachment: scroll, scroll;
     background-clip: border-box, border-box;
@@ -416,17 +417,15 @@ hr {
     background-size: auto auto, auto auto;
 	box-shadow: 0 500px 0 0 rgba(0, 0, 0, 0.85) inset;
 	transition: all 500ms;
+=======
+	background-size: auto auto, auto auto;
+>>>>>>> fa22b5bfc36b4dbb60ea128acb1d6fead287e36c
 }
 .thisYear {
 	background-image: url("../firstday.jpg");
-    background-repeat: repeat, repeat;
-    background-attachment: scroll, scroll;
-    background-clip: border-box, border-box;
-    background-origin: padding-box, padding-box;
     background-size: auto auto, auto auto;
 	box-shadow: 0 500px 0 0 rgba(0, 0, 0, 0.85) inset;
 	background-position: 100% 100%;
-	transition: all 500ms;
 }
 .STEM {
 	background: url('http://indianafirst.rarebirdinc.com/files/868_at_champs.JPG');
@@ -436,8 +435,8 @@ hr {
     background-origin: padding-box, padding-box;
     background-size: auto auto, auto auto;
 	box-shadow: 0 500px 0 0 rgba(0, 0, 0, 0.85) inset;
+	background-size: auto auto, auto auto;
 	background-position: 76% 56%;
-	transition: all 500ms;
 	border-bottom: 7px solid #5f5f5f;
 }
 .shadow {
@@ -622,19 +621,12 @@ h5 {
 /*Award specific*/
 .Awards {
 	background: url('http://www.techhounds.com/data/uploads/page-photos/trophies/copyimg_4974.jpg');
-    background-repeat: repeat, repeat;
-    background-attachment: scroll, scroll;
-    background-clip: border-box, border-box;
-    background-origin: padding-box, padding-box;
-    background-size: 1220px;
-	box-shadow: 0 500px 0 0 rgba(0, 0, 0, 0.6) inset;
-	background-position: 65% 54%;
-	transition: all 500ms;
-	height: 337px;
-	margin-top: -14;
-	display: block;
-	line-height: 260px;
+    background-size: 1281px;
+    background-position: 63% 50%;
+	padding: 2px;
+	height: 300px;
 }
+
 .awardstext {
 	line-height: 1.42857;
 	color: #222222;
@@ -653,14 +645,8 @@ h5 {
 /*FIRST Vision Specific*/
 .Vision {
     background-image: url("http://farm4.static.flickr.com/3914/14666998070_d5f8e4bcf3_b.jpg");
-    background-repeat: repeat, repeat;
-    background-attachment: scroll, scroll;
-    background-clip: border-box, border-box;
-    background-origin: padding-box, padding-box;
     background-size: 1281px;
     background-position: 100% 89%;
-	box-shadow: 0 500px 0 0 rgba(0, 0, 0, 0.5) inset;
-	transition: all 500ms;
 	padding: 2px;
 	height: 300px;
 }
@@ -687,14 +673,8 @@ h5 {
 /*Process Specific*/
 .Process {
 	 background-image: url("http://farm8.static.flickr.com/7344/13884040646_1141f9ee52_b.jpg");
-	 background-repeat: repeat, repeat;
-	 background-attachment: scroll, scrool;
-	 background-clip: border-box, border-box;
-	 background-origin: padding-box, padding-box;
 	 background-size: 1281px;
 	 background-position: 100% 89%;
-	 box-shadow: 0 500px 0 0 rgba(0, 0, 0, 0.5) inset;
-	 transition: all 500ms;
 	 padding: 2px;
 	 height: 300px;
 }
@@ -716,3 +696,11 @@ h5 {
 	opacity:0.7;
 }
 /*end Process Specific*/
+.block{
+    background-repeat: repeat, repeat;
+    background-attachment: scroll, scroll;
+    background-clip: border-box, border-box;
+    background-origin: padding-box, padding-box;
+	box-shadow: 0 500px 0 0 rgba(0, 0, 0, 0.6) inset;
+	transition: all 500ms;
+}
