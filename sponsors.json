@@ -225,7 +225,7 @@
 	],
 	"tiek":[
 		{"name":"Tiek Dental Studio",
-		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/tiek.jpg",
+		 "logo":"none",
 		 "description":"\"Started in the heart of Carmel, our office is now a more dedicated and personalized studio for cosmetic and family dentistry! While focusing on giving our patients the highest quality dental treatment, we want to provide a warm and friendly environment that helps the patient know that we care. Our goal is to help you achieve any dental goal you have in mind, and to do so with care and precision.\"",
 		 "website":"tiekdental.com",
 		 "level":"bronze"}
@@ -235,6 +235,76 @@
 		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/westfield-steel.png",
 		 "description":"\"Westfield Steel is an independent, family-owned business.  Our headquarters and main processing center is in Westfield, IN.  Since our start in 1977, we have grown to accommodate our customers’ needs.  We credit our success to our quality people and the capacity to provide our customers quality material and processing.\"",
 		 "website":"http://www.westfieldsteel.com",
+		 "level":"bronze"}
+	],
+	"crownpoint":[
+		{"name":"Crownpoint",
+		 "logo":"none",
+		 "description":"none",
+		 "website":"none",
+		 "level":"bronze"}
+	],
+	"kcs":[
+		{"name":"Kcsproductions l.l.c.",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/kcsproductions.png",
+		 "description":"\"Kcsproductions l.l.c. is a family owned enterprise providing Videography and Photography services to community theaters and schools in the Indianapolis area. Kcsproductions provides custom videography for live theater performances, photobooth services for special events and photography services. The company also provides video conversion from old and obsolete media (i.e. Betamax, vhs, etc..) to current media. Kcsproductions has been supporting the Carmel High School TechHOUNDS for several years providing video and photography coverage during the team's 6-week build season as well as during competitions.\"",
+		 "website":"none",
+		 "level":"platinum"}
+	],
+	"rolls-royce":[
+		{"name":"Rolls-Royce",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/rollsroyce.png",
+		 "description":"\"Rolls-Royce, a world-leading provider of power systems and services for use on land, at sea and in the air, operates in four global markets - civil aerospace, defense aerospace, marine and energy. We continue to invest in core technologies, products, people and capabilities with the objective of broadening and strengthening the product portfolio, improving efficiency and enhancing the environmental performance of its products.\"",
+		 "website":"http://www.rolls-royce.com",
+		 "level":"signature"}
+	],
+	"beagleboard":[
+		{"name":"BeagleBoard.org",
+		 "logo":"none",
+		 "description":"\"The BeagleBoard.org Foundation is a US-based 501(c) non-profit corporation existing to provide education in and promotion of the design and use of open-source software and hardware in embedded computing. BeagleBoard.org provides a forum for the owners and developers of open-source software and hardware to exchange ideas, knowledge and experience. On occasion, BeagleBoard.org provides for the promotion of communication with other individuals interested in open-source software and hardware. BeagleBoard.org is the result of an effort by a collection of passionate individuals, including several employees of Texas Instruments, interested in creating powerful, open, and embedded devices. We invite you to participate and become part of BeagleBoard.org, defining its direction.\"",
+		 "website":"http://beagleboard.org",
+		 "level":"gold"}
+	],
+	"allison":[
+		{"name":"Allison Transmission",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/AllisonTransmission.jpg",
+		 "description":"\"Because we`re focused on understanding and satisfying the needs of our customers, we`re constantly analyzing, refining and improving our products and their features. Rather than being content to rest on our past successes, Allison is driven by a true commitment to excellence without compromise that ensures our products are the highest quality available today.\"",
+		 "website":"http://www.allisontransmission.com",
+		 "level":"gold"}
+	],
+	"pons":[
+		{"name":"Hector Pons",
+		 "logo":"none",
+		 "description":"none",
+		 "website":"none",
+		 "level":"bronze"}
+	],
+	"mdlink":[
+		{"name":"MDLink",
+		 "logo":"none",
+		 "description":"none",
+		 "website":"none",
+		 "level":"silver"}
+	],
+	"waterjet":[
+		{"name":"Waterjet Cutting of Indiana",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/WJCofIndiana.png",
+		 "description":"\"Waterjet Cutting of Indiana, Inc. uses two of nature`s own elements; water and highly refined abrasive, propelled at three times the speed of sound, to make incredibly accurate and precise cuts in virtually any material.\"",
+		 "website":"http://www.waterjetcuttingofindiana.com",
+		 "level":"gold"}
+	],
+	"kiwanis":[
+		{"name":"Carmel-Clay Kiwanis",
+		 "logo":"http://www.techhounds.com/data/uploads/page-photos/sponsors/kiwanis.png",
+		 "description":"\"Kiwanians are volunteers changing the world through service to children and communities. Kiwanis members help shelter the homeless, feed the hungry, mentor the disadvantaged, and care for the sick. They develop youth as leaders, build playgrounds, raise funds for pediatric research, and much more. Kiwanis is a global organization of volunteers dedicated to changing the world, one child and one community at a time.\"",
+		 "website":"http://www.carmelclaykiwanis.org",
+		 "level":"gold"}
+	],
+	"axis":[
+		{"name":"Axis Communications",
+		 "logo":"none",
+		 "description":"\"Axis is the market leader in network video and a driving force behind the shift from analog to digital video surveillance, which paves the way for a more secure, smarter and safer world. Axis offers network video solutions for professional installations featuring products and solutions that are based on innovative and open technical platforms.\"",
+		 "website":"http://www.axis.com",
 		 "level":"bronze"}
 	]
 }
