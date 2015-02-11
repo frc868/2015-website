@@ -745,6 +745,9 @@ h5 {
 .fix {
 	display: inline;
 }
+.socialmedia:hover {
+	opacity: .8;
+	}
 @media (max-width: 814px) {
 	.Robot {
 		height: 100px;
