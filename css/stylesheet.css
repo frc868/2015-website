@@ -703,11 +703,16 @@ h5 {
 	transition: all 500ms;
 }
 .Robot {
-	width: 300px;
-	height: auto;
-	text-align: left;
+	width: auto;
+	height: 300px;
 	margin: 0px 0px 0px 0px;
 	float: left;
+}
+.Robot1 {
+	width: auto;
+	height: 300px;
+	margin: 0px 0px 0px 0px;
+	float: right;
 }
 .fix {
 	display: inline;
