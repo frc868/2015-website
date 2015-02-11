@@ -10,6 +10,22 @@ body {
     font-size: 14px;
     line-height: 1.428571429;
 }
+
+
+.headerImage {
+    background-color: #001027;
+	max-width: 100%;
+	width: 100%;
+	text-align: center;
+	font-size: 100%;
+	vertical-align: text-top;
+}
+
+.headerImage img{
+    max-width:100%;
+	width:100%;
+}
+
 hr {
 	border-width: 1px 0px 0px;
 	border-style: solid none none;
@@ -20,15 +36,8 @@ hr {
 }
 #home-carousel {
 	margin: 0;
-	box-shadow: none;
-}
-.headerImage {
-    background-color: #001027;
-	max-width: 100%;
 	width: 100%;
-	text-align: center;
-	font-size: 100%;
-	vertical-align: text-top;
+	box-shadow: none;
 }
 .button {
     width: 100px;
