@@ -729,3 +729,6 @@ h5 {
 .fix {
 	display: inline;
 }
+.socialmedia:hover {
+	opacity: .8;
+}
