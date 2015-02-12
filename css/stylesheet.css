@@ -11,6 +11,18 @@ body {
     line-height: 1.428571429;
 }
 
+.Robot {
+	height: 100px;
+	margin-top: 50px;
+	width: auto;
+	float: left;
+}
+.Robot1 {
+	height: 100px;
+	margin-top: 50px;
+	width: auto;
+	float: right;
+}
 
 .headerImage {
     background-color: #001027;
@@ -221,6 +233,9 @@ hr {
 		display:inline-block;
 		width:49%;
 	}
+	.STEM {
+		height: 500px;
+	}
 	.thumbnail.photos {
 		max-width:46%;
 	}
@@ -229,6 +244,12 @@ hr {
     .headerimage {
 		width:814px;
     }
+	.Robot {
+		height: 200px;
+	}
+	.Robot1 {
+		height: 200px;
+	}
     .page {
 		width:814px;
     }
@@ -387,6 +408,14 @@ hr {
     .thumbnail.photos{
 		max-width:23.3774%;
     }
+	.Robot {
+		height: 300px;
+		margin: 0;
+	}
+	.Robot1 {
+		height: 300px;
+		margin: 0;
+	}
 }
 .bodyContainer {
 	padding: 0px;
@@ -399,7 +428,7 @@ hr {
 .front-page-block > div {
 	display: inline-block;
 	width: 900px;
-	max-width:80%;
+	max-width:100%;
 	opacity: 0;
 	position: absolute;
 	top: 50%;
@@ -730,18 +759,6 @@ h5 {
 	box-shadow: 0 500px 0 0 rgba(0, 0, 0, 0.6) inset;
 	transition: all 500ms;
 }
-.Robot {
-	width: auto;
-	height: 300px;
-	margin: 0px 0px 0px 0px;
-	float: left;
-}
-.Robot1 {
-	width: auto;
-	height: 300px;
-	margin: 0px 0px 0px 0px;
-	float: right;
-}
 .fix {
 	display: inline-block;
 	margin-left: 10px;
@@ -755,32 +772,7 @@ h5 {
 	opacity: .8;
 	}
 @media (max-width: 814px) {
-	.Robot {
-		height: 100px;
-		margin-top: 50px;
-	}
-	.Robot1 {
-		height: 100px;
-		margin-top: 50px;
-	}
-	.STEM {
-		height: 500px;
-	}
-	.this {
-		display: inline-block;
-	}
-	.this1 {
-		display: inline-block;
-	}
 	.stempic {
-		margin: 21px;
-	}
-	.science {
-	}
-	.tech {
-	}
-	.eng {
-	}
-	.math {
+		
 	}
 }
