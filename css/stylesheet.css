@@ -743,7 +743,13 @@ h5 {
 	float: right;
 }
 .fix {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.robot.fix {
 	display: inline;
+	margin: 0;
 }
 .socialmedia:hover {
 	opacity: .8;
