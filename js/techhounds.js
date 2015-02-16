@@ -66,3 +66,35 @@ blueimp.Gallery(
 			node[0].href = link;
 		}
 	});
+var url = window.location;
+
+// Will only work if string in href matches with location
+
+//$('ul.nav a[href="'+ url +'"]').parent().addClass('active');
+
+// Will also work for relative and absolute hrefs
+
+$('.nav ul li a').filter(function() {
+
+    return this.href == url;
+
+}).parent().append('<div class="active"></div>');
+
+//$('ul li a[href="http://techhounds.com/"]').parent().append("<div>foo</div>");
+
+$(function() {
+    if ( document.location.href.indexOf('photos') > -1 ) {
+		$('.nav a[href="http://www.techhounds.com/photos/"]').parent().append('<div class="active"></div>');
+		$('.nav a[href="http://www.techhounds.com/photos/"]').parent().parent().parent().append('<div class="active"></div>');
+    }
+});
+
+$('.dropdown > .dropdownMenu > li > .active').parent().parent().parent().append('<div class="active"></div>');
+
+/*$('.dropdown > .dropdownMenu > li > a').find(function(){
+  $(this).find('.active').parent().parent().parent().append('<div class="active"></div>');
+  });*/
+
+$('#show').click(function(){
+	$('.nav').toggleClass('mobileDisplay');
+});

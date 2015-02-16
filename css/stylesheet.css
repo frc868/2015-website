@@ -51,6 +51,52 @@ hr {
 	width: 100%;
 	box-shadow: none;
 }
+#home-carousel .prev,
+#home-carousel .next,
+#sponsors-carousel .prev,
+#sponsors-carousel .next {
+    opacity:0;
+    transition:all 150ms ease-in-out;
+}
+#home-carousel:hover .prev,
+#home-carousel:hover .next,
+#sponsors-carousel:hover .prev,
+#sponsors-carousel:hover .next {
+    opacity:.75;
+}
+#home-carousel > .prev,
+#home-carousel > .next,
+#home-carousel > .close,
+#home-carousel > .title,
+#home-carousel > .play-pause,
+#home-carousel > .description,
+#sponsors-carousel > .prev,
+#sponsors-carousel > .next,
+#sponsors-carousel > .close,
+#sponsors-carousel > .title,
+#sponsors-carousel > .play-pause {
+    display: block;
+}
+#home-carousel > .description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    background-color:#000;
+    padding:20px;
+    opacity:0.85;
+    line-height:100%;
+}
+#home-carousel {
+    margin-top:0;
+}
+#home-carousel .slides .slide .slide-content {
+    width:100%;
+}
+#home-carousel .slides {
+    height:100%;
+}
 .button {
     width: 100px;
     height: 50px;
