@@ -64,9 +64,9 @@ hr {
 
 .robot-pic {
 	height: 100px;
-	margin-top: 50px;
 	width: auto;
 	vertical-align: middle;
+	display: none;
 }
 
 .front-page-block > div {
@@ -172,7 +172,7 @@ hr {
 }
 
 .front-page-text {
-	font-size: 18px;
+	font-size: 14px;
 	text-align: center;
 	padding: 7px;
 	margin: 0;
@@ -203,6 +203,7 @@ hr {
 .FRC > div {
 	opacity: 1;
 	color: #fff;
+	width: 1000px;
 }
 
 
@@ -812,6 +813,12 @@ a {
 	.thumbnail.photos {
 		max-width:46%;
 	}
+	.front-page-text {
+		font-size: 18px;
+	}
+	.robot-pic {
+		display: block;
+	}
 }
 @media (min-width: 765px){
 	.homeContainer h1 {
@@ -836,10 +843,14 @@ a {
 	.front-page-text {
 		font-size: 22px;
 	}
+	.robot-pic {
+		height: 150px;
+	}
 }
 @media (min-width: 814px){
 	.robot-pic {
 		height: 200px;
+		margin: 0px 10px;
 	}
     .page {
 		width:814px;
@@ -978,7 +989,6 @@ a {
 		max-width:23.3774%;
     }
 	.robot-pic {
-		max-height: 300px;
-		margin: 0;
+		height: 200px;
 	}
 }
