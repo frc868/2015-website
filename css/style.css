@@ -61,18 +61,11 @@ hr {
 	margin:auto;
 }
 
-.Robot {
+.robot-pic {
 	height: 100px;
 	margin-top: 50px;
 	width: auto;
-	float: left;
-}
-
-.Robot1 {
-	height: 100px;
-	margin-top: 50px;
-	width: auto;
-	float: right;
+	vertical-align: middle;
 }
 
 .front-page-block > div {
@@ -149,11 +142,20 @@ hr {
 	margin: 0;
 }
 
+.homeContainer h1,
+.homeContainer h2,
+.homeContainer h3,
+.homeContainer h4,
+.homeContainer h5 {
+	margin: 10px 0;
+}
 
 .homeContainer h1 {
-	font-size: 50px;
-    text-align: center;
-	
+	font-size: 60px;
+}
+
+.homeContainer h2 {
+	font-size: 53px;
 }
 
 .homeContainer h3 {
@@ -161,8 +163,7 @@ hr {
 }
 
 .homeContainer h4 {
-	font-size: 150%;
-	font-color: white;
+	font-size: 21px;
 }
 
 .homeContainer h5 {
@@ -173,6 +174,7 @@ hr {
 	font-size: 22px;
 	text-align: center;
 	padding: 7px;
+	margin: 0;
 }
 
 .sponsortext {
@@ -209,12 +211,11 @@ hr {
 
 .fix {
 	display: inline-block;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin: 0 10px 10px 10px;
 }
 
 .robot.fix {
-	display: inline;
+	vertical-align: middle;
 	margin: 0;
 }
 
@@ -684,37 +685,44 @@ a {
 }
 .footer {
 	text-align: center;
-	background-color: #F7F7F7;
+	background-color: #FFF;
 	margin-left: auto;
 	margin-right: auto;
 	border-top: 1px solid #BDBDBD;
 	padding: 14px 15px 10px;
 }
+
 .footer a {
 	text-decoration: none;
 }
+
 .siteMapTabs {
 	font-size: 17px;
 	display: inline-block;
 }
+
 .sitemap {
 	font-size: 15px;
 	//display: inline-block;
 	float: left;
 	margin: 0 21px;
 }
+
 .sitemapcolor {
 	border-top: 1px solid #BDBDBD;
 	background-color: #F8F8F8;
 	text-align: center;
 }
+
 .sitemaplinks {
 	text-decoration: none;
 	color: #5c5c5c;
 }
+
 .sitemaplinks:visited {
 	color: #5c5c5c;
 }
+
 .socialmedia:hover {
 	opacity: .8;
 }
@@ -804,10 +812,7 @@ a {
     .headerimage {
 		width:814px;
     }
-	.Robot {
-		height: 200px;
-	}
-	.Robot1 {
+	.robot-pic {
 		height: 200px;
 	}
     .page {
@@ -952,12 +957,8 @@ a {
     .thumbnail.photos{
 		max-width:23.3774%;
     }
-	.Robot {
-		height: 300px;
-		margin: 0;
-	}
-	.Robot1 {
-		height: 300px;
+	.robot-pic {
+		max-height: 300px;
 		margin: 0;
 	}
 }
