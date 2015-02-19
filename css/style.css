@@ -109,6 +109,7 @@ hr {
 	box-shadow: 0 500px 0 0 rgba(0, 0, 0, 0.85) inset;
 	background-position: 100% 73%;
 }
+
 .STEM {
 	background: url('http://www.techhounds.com/theme/TechHOUNDS Theme/image_library/stemblock.jpg');
     background-repeat: repeat, repeat;
@@ -121,23 +122,21 @@ hr {
 	background-position: 76% 56%;
 	border-bottom: 7px solid #5f5f5f;
 }
+
 .shadow {
 	box-shadow: 0 500px 0 0 rgba(0, 0, 0, 0.85) inset;
 }
+
 .sponsorlevel {
 	font-size: 25px;
 }
+
 .sponsortext img {
 	max-width: 100%;
 }
-.specialthanks {
-	font-size: 40px;
-	text-align: center;
-	font-weight: bold;
-}
+
 .stempic {
 	border-radius: 100%;
-	height: 100px;
 	border: 4px solid #cdcdcd;
 	margin: 0;
 }
@@ -148,33 +147,38 @@ hr {
 .homeContainer h4,
 .homeContainer h5 {
 	margin: 10px 0;
+	font-weight: 500;
 }
 
 .homeContainer h1 {
-	font-size: 60px;
+	font-size: 40px;
 }
 
 .homeContainer h2 {
-	font-size: 53px;
-}
-
-.homeContainer h3 {
 	font-size: 35px;
 }
 
+.homeContainer h3 {
+	font-size: 27px;
+}
+
 .homeContainer h4 {
-	font-size: 21px;
+	font-size: 18px;
 }
 
 .homeContainer h5 {
-	font-size: 20px;
+	font-size: 14px;
 }
 
 .front-page-text {
-	font-size: 22px;
+	font-size: 18px;
 	text-align: center;
 	padding: 7px;
 	margin: 0;
+}
+
+.special-thanks {
+	font-weight: bold !important;
 }
 
 .sponsortext {
@@ -808,10 +812,31 @@ a {
 		max-width:46%;
 	}
 }
+@media (min-width: 765px){
+	.homeContainer h1 {
+		font-size: 60px;
+	}
+
+	.homeContainer h2 {
+		font-size: 53px;
+	}
+
+	.homeContainer h3 {
+		font-size: 35px;
+	}
+
+	.homeContainer h4 {
+		font-size: 21px;
+	}
+
+	.homeContainer h5 {
+		font-size: 20px;
+	}
+	.front-page-text {
+		font-size: 22px;
+	}
+}
 @media (min-width: 814px){
-    .headerimage {
-		width:814px;
-    }
 	.robot-pic {
 		height: 200px;
 	}
@@ -903,9 +928,6 @@ a {
     }
 }
 @media (min-width: 980px){ /*change 600 to 780*/
-    .headerimage {
-		width:980px;
-    }
     .page {
 		width:980px;
     }
@@ -933,9 +955,6 @@ a {
     }
 }
 @media (min-width: 1200px){ /*change 600 to 780*/
-    .headerimage {
-		width:1200px;
-    }
     .page {
 		width:1200px;
     }
