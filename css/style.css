@@ -819,6 +819,9 @@ a {
 	.robot-pic {
 		display: block;
 	}
+	.robot.fix.team-info {
+		max-width: 55%;
+	}
 }
 @media (min-width: 765px){
 	.homeContainer h1 {
