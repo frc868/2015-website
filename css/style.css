@@ -134,6 +134,7 @@ hr {
 
 .sponsortext img {
 	max-width: 100%;
+	max-height: 150px;
 }
 
 .stempic {
@@ -185,8 +186,12 @@ hr {
 .sponsortext {
 	display:inline-block;
 	vertical-align: middle;
-	width: 12%;
-	margin: 0 10px;
+	width: 43%;
+	padding: 10px;
+}
+
+.sponsortext h4 {
+	font-size: 14px;
 }
 
 .FRC {
@@ -792,6 +797,7 @@ a {
 .sponsorDiv > img {
     cursor:pointer;
     max-width:100%;
+	max-height: 150px;
 }
 
 .blog_post_info {
@@ -848,6 +854,9 @@ a {
 	}
 	.robot-pic {
 		height: 150px;
+	}
+	.sponsortext {
+		width: 30%;
 	}
 }
 @media (min-width: 814px){
@@ -968,6 +977,9 @@ a {
     .thumbnail.photos{
 		max-width:23%;
     }
+	.sponsortext {
+		width: 12%;
+	}
 }
 @media (min-width: 1200px){ /*change 600 to 780*/
     .page {
