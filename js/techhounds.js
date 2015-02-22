@@ -1,7 +1,9 @@
 $(document).ready(function() {
-	$('.navbar').affix(
-		{offset: { top: $('.navbar').offset().top }
-		});
+	$('.navbar').affix({
+		offset: {
+			top: $('.navbar').offset().top
+		}
+	});
 });
 $('.navbar').on('affix.bs.affix', function () {
     var navHeight = $('.navbar').outerHeight(true);
