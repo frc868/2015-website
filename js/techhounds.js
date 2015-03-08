@@ -30,6 +30,10 @@ $('.navbar').on('affix-top.bs.affix', function () {
     $('.navbar + .bodyContainer').css('margin-top', 0);
 });
 
+$('.dropdown').click(function(){
+	$(this).children('.dropdownMenu').toggle()
+});
+
 $(window).on("load",function() {
     function fade() {
         $('.clearfix').each(function() {

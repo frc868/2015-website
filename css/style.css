@@ -362,6 +362,7 @@ hr {
     display:block;
     margin-top: 10px;
     margin-right: 10px;
+	margin-bottom: 12px;
 }
 .mobileButtonLine {
     height:3px;
@@ -388,9 +389,9 @@ hr {
     color:#000;
 }
 
-.dropdown:hover .dropdownMenu {
+/*.dropdown:hover .dropdownMenu {
     display:block;
-}
+}*/
 
 .dropdownMenu > li {
     white-space: nowrap;
