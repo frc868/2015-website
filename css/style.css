@@ -323,10 +323,12 @@ hr {
     transition: all 130ms ease-in-out;
 }
 
-.nav > ul > li:hover{
-    background-color:#fbd406;
+.dropdown.open,
+.nav > ul > li:hover {
+	background-color: #f5f5f5;
 }
 
+.dropdown.open > a,
 .nav > ul > li:hover > a {
 	color:#555;
 	text-shadow:0 1px 0 #fff;
@@ -342,9 +344,12 @@ hr {
     -moz-transition: all 130ms ease-in-out;
     transition: all 130ms ease-in-out;
 }
+
+.dropdown.open .caret,
 .dropdown:hover .caret{
     border-top:4px solid #555;
 }
+
 .nav.mobileDisplay {
     display:block;
 	overflow: auto;
@@ -353,9 +358,15 @@ hr {
 	background-color:white;
 	-webkit-overflow-scrolling: touch;
 }
+
 .nav.mobileDisplay > ul > li > a {
 	font-weight:normal;
 }
+
+.dropdown.open > ul {
+	display: block;
+}
+
 #show {
 	padding: 3px 9px;
     float:right;
@@ -376,16 +387,16 @@ hr {
     list-style:none;
     text-align:left;
     z-index:1033;
-    padding-left:10px;	
+    padding-left:0;
     -webkit-transition: all 130ms ease-in-out;
     -moz-transition: all 130ms ease-in-out;
     transition: all 130ms ease-in-out;
 }
 
-.dropdownMenu > li > a{
+.dropdownMenu > li > a {
     display:block;
     text-decoration:none;
-    padding:7px 15px;
+    padding:7px 25px;
     color:#000;
 }
 
@@ -403,9 +414,9 @@ hr {
 }
 
 .dropdownMenu > li:hover{
-    background-color:#fbd406;
 	opacity: 1;
 	cursor: pointer;
+	background-color: #FAFAFA;
 }
 
 .active {
@@ -874,10 +885,17 @@ a {
     #show{
 		display:none;
     }
+	.dropdown.open,
+	.nav > ul > li:hover {
+		background-color: #fbd406;
+	}
     .dropdownMenu {
 		position:absolute;
 		float:left;
     }
+	.dropdownMenu > li > a {
+		padding: 7px 15px;
+	}
     .caret {
 		border-top:4px solid #fff;
     }
@@ -903,16 +921,6 @@ a {
     }
     .dropdownMenu > li:hover{
 		background-color:#ddd;
-    }
-    .dropdownMenu:before {
-		position: absolute;
-		top: -7px;
-		left: 9px;
-		display: inline-block;
-		border-right: 7px solid transparent;
-		border-bottom: 7px solid #fff;
-		border-left: 7px solid transparent;
-		content: '';
     }
     .footer {
 		text-align: inherit;

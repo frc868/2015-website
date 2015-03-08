@@ -26,49 +26,55 @@ $('.navbar').on('affix.bs.affix', function () {
     
     $('.navbar + .bodyContainer').css('margin-top', navHeight);
 });
+
 $('.navbar').on('affix-top.bs.affix', function () {
     $('.navbar + .bodyContainer').css('margin-top', 0);
 });
 
-$('.dropdown').click(function(){
-	$(this).children('.dropdownMenu').toggle()
+$('.dropdown').click(function(event){
+
+	if($(this).parent().parent().hasClass('mobileDisplay')){
+
+		var thisEl = $(this);
+
+		$('.mobileDisplay > ul > .dropdown').not(thisEl).each(function(){
+			if($(this).hasClass('open')){
+				$(this).removeClass('open');
+			}
+		});
+
+		event.stopPropagation();
+		$(this).toggleClass('open');
+	}
 });
 
-$(window).on("load",function() {
-    function fade() {
-        $('.clearfix').each(function() {
+$('.dropdown').hover(function(){
+	if(!$(this).parent().parent().hasClass('mobileDisplay')){
+		$(this).toggleClass('open');
+	}
+});
 
-            /* Check the location of each desired element */
-            var objectBottom = $(this).offset().top + $(this).outerHeight();
-            var windowBottom = $(window).scrollTop() + $(window).innerHeight();
-			var offset = 175;
-
-			//console.log(objectBottom - offset);
-			//console.log(windowBottom);
-            
-            /* If the object is completely visible in the window, fade it in */
-            if ((objectBottom - offset)< windowBottom) {
-				//console.log("fade");
-				//object comes into view (scrolling down)
-                if ($(this).hasClass("shadow")) {
-					console.log("fade");
-					$(this).addClass("front-fade");
-					$(this).children().fadeTo(500,1);
-				}
-                if ($(this).css('opacity')==0) {
-					console.log("fade2");
-					$(this).fadeTo(500,1);
-				}
-			}
-            /*else { //object goes out of view (scrolling up)
-              if ($(this).css('opacity')==1) {$(this).fadeTo(500,0);}
-              }*/
-        });
-    }
-    fade(); //Fade in completely visible elements during page-load
-    $(window).scroll(function() {fade();}); //Fade in elements during scroll
+$(document).click(function(e) {
+	if ($(e.target).not('.dropdown') && $('.nav').hasClass('mobileDisplay')){
+		$('.dropdown').removeClass('open');
+	}
 });
 
 $('#show').click(function(){
 	$('.nav').toggleClass('mobileDisplay');
+	$('.dropdown').removeClass('open');
 });
+
+if (matchMedia) {
+	var mq = window.matchMedia("(min-width: 814px)");
+	mq.addListener(widthChange);
+	widthChange(mq);
+}
+
+function widthChange(mq) {
+	if (mq.matches) {
+		if ($('.nav').hasClass('mobileDisplay')){
+			$('.nav').removeClass('mobileDisplay');
+		}
+	}
+}
