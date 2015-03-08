@@ -32,7 +32,7 @@ $(window).on("load",function() {
 				//object comes into view (scrolling down)
                 if ($(this).hasClass("shadow")) {
 					console.log("fade");
-					$(this).addClass("fade");
+					$(this).addClass("front-fade");
 					$(this).children().fadeTo(500,1);
 				}
                 if ($(this).css('opacity')==0) {
