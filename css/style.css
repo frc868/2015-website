@@ -367,6 +367,13 @@ hr {
 	display: block;
 }
 
+.home-icon {
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 9px;
+}
+
 #show {
 	padding: 3px 9px;
 	float:right;
