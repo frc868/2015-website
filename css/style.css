@@ -62,7 +62,7 @@ hr {
 }
 
 .robot-pic {
-	height: 100px;
+	max-height: 170px;
 	width: auto;
 	vertical-align: middle;
 	display: none;
@@ -852,16 +852,13 @@ a {
 	.front-page-text {
 		font-size: 22px;
 	}
-	.robot-pic {
-		height: 150px;
-	}
 	.sponsortext {
 		width: 30%;
 	}
 }
 @media (min-width: 814px){
 	.robot-pic {
-		height: 200px;
+		max-height: 235px;
 		margin: 0px 10px;
 	}
 	.page {
@@ -1001,6 +998,6 @@ a {
 		max-width:23.3774%;
 	}
 	.robot-pic {
-		height: 200px;
+		max-height: 250px;
 	}
 }
