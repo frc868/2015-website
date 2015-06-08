@@ -375,9 +375,7 @@ hr {
 }
 
 #show {
-	/*padding: 3px 9px;*/
-	height: 30px;
-	width: 30px;
+	padding: 4px 7px;
 	float:right;
 	display:block;
 	margin-top: 10px;
@@ -397,10 +395,10 @@ hr {
 }
 
 .mobileButtonLine {
-	height:3px;
+	height:2px;
 	width:16px;
 	background-color:#FFF;
-	margin-top:3px;
+	margin-top:4px;
 }
 
 .dropdownMenu {
